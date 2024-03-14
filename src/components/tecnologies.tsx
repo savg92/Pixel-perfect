@@ -8,14 +8,14 @@ import Node from '../assets/nodejs.svg';
 const Tecnologies = () => {
 	return (
 		<div
-			className='bg-[#3871ff] text-white flex flex-row justify-between items-center p-5 -my-24 py-28 px-52'
+			className='bg-[#3871ff] text-white flex flex-row justify-between items-center p-5 -mt-24 pt-44 pb-32 px-52 '
 			id='technology'
 		>
 			<div className=' w-3/5'>
 				<h1 className='text-3xl font-bold text-start'>
 					We use cutting edge technology
 				</h1>
-				<p className='text-[#9297a1] text-start mt-5 w-[28rem]'>
+				<p className='text-[#9bb8ff] text-start mt-5 w-[28rem]'>
 					Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean lacinia
 					bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis
 					dis parturient montes, nascetur ridiculus mus. Nulla vitae elit
@@ -24,7 +24,7 @@ const Tecnologies = () => {
 					auctor.
 				</p>
 			</div>
-			<div className='flex flex-wrap w-72 gap-14 pr-12'>
+			<div className='flex flex-wrap w-72 gap-10 pr-12'>
 				<img
 					src={HTML}
 					alt='HTML5'

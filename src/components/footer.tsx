@@ -11,7 +11,7 @@ const Footer = () => {
 			<div className='flex flex-col justify-start items-start space-y-5 gap-6 w-4/6'>
 				<div className='flex flex-col justify-start items-start gap-6'>
 					<h4 className='font-bold'>compleet labs</h4>
-					<p className='text-[#9297a1] text-justify w-1/2'>
+					<p className='text-[#9297a1] text-start w-8/12'>
 						Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
 						nibh, ut fermentum massa justo sit amet risus. Donec ullamcorper
 						nulla.
@@ -52,7 +52,7 @@ const Footer = () => {
 					</li>
 				</ul>
 			</div>
-			<div className='flex flex-col justify-start items-start w-1/6 h-60 gap-4'>
+			<div className='flex flex-col justify-start items-start w-1/6 h-48 gap-4'>
 				<h4 className='font-bold'>Sitemap</h4>
 				<ul className='flex flex-col justify-start items-start text-[#9297a1] gap-3'>
 					<li>
@@ -69,7 +69,7 @@ const Footer = () => {
 					</li>
 				</ul>
 			</div>
-			<div className='flex flex-col justify-start items-start w-1/6 h-60 gap-4'>
+			<div className='flex flex-col justify-start items-start w-1/6 h-48 gap-4'>
 				<h4 className='font-bold'>Case Studies</h4>
 				<ul className='flex justify-between items-start text-[#9297a1] flex-col gap-3'>
 					<li>
@@ -86,11 +86,11 @@ const Footer = () => {
 					</li>
 				</ul>
 			</div>
-			<div className='flex flex-col justify-start items-start w-1/6 h-60 gap-4'>
+			<div className='flex flex-col justify-start items-start w-1/6 h-48 gap-4'>
 				<h4 className='font-bold'>Contact</h4>
 				<ul className='flex justify-between items-start text-[#9297a1] flex-col gap-3'>
 					<li>
-						<a href='#'>jobs</a>
+						<a href='#'>Jobs</a>
 					</li>
 					<li>
 						<a href='#'>Hire us</a>

@@ -8,7 +8,7 @@ import INF from '../assets/ITNews-Africa-600x400.png';
 const CaseStudies = () => {
 	return (
 		<div
-			className='bg-white text-[#9297a1] flex flex-col justify-between items-center pt-12 pb-48 -mb-40 px-52'
+			className='bg-white text-[#9297a1] flex flex-col justify-between items-center p-24 pb-48 -mb-40 px-52'
 			id='caseStudies'
 		>
 			<h2 className='text-sm font-bold'>CLIENTS WE WORKED WITH</h2>
