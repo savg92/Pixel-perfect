@@ -1,0 +1,18 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 0rem;
+  /* padding: 0rem 2rem 0rem 2rem; */
+  text-align: center;
+  background-color: #283345;
+  /* font-family: 'Circular Std', 'Montserrat', 'Gotham'; */
+  /* font-family: 'Circular Std'; */
+  /* font-family: 'Montserrat'; */
+  /* font-family: 'Gotham'; */
+  background-image: url('./assets/asset-background.jpg');
+  background-size: 40% 40%;
+  background-position: right top;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  /* background-position: center; */
+}
