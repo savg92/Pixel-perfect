@@ -14,8 +14,8 @@ const NavBar = () => {
 				<div>
 					<h1 className='text-3sm'>compleet labs</h1>
 				</div>
-				<nav className='flex justify-between items-center space-x-5'>
-					<ul className='flex justify-between items-center space-x-5 text-[#9297a1]'>
+				<nav className='flex justify-between items-center'>
+					<ul className='flex justify-between items-center space-x-6 text-[#9297a1]'>
 						<li>
 							<a
 								href='/'

@@ -3,7 +3,10 @@ import Card from './cardServices';
 
 const Services = () => {
 	return (
-		<div id='services' className=' px-52'>
+		<div
+			id='services'
+			className=' px-52'
+		>
 			<div>
 				<h1 className='text-3xl font-bold text-white p-5'>Our Services</h1>
 				<p className='text-[#9297a1] p-5'>
@@ -11,12 +14,11 @@ const Services = () => {
 					designing and coding applications. Here is what we love to do!
 				</p>
 			</div>
-			<div className='flex justify-between items-center space-x-5 p-5'>
+			<div className='flex justify-between items-center gap-8 p-5'>
 				<Card
 					icon={<FileText />}
 					title='Business & Product Concept'
-					description="Analyse business and product concepts at Start-up Workshops or Ongoing Projects' Audits and prepare a viable and sensible product roadmap for achieving a perfect market fit.'
-					link='Learn more"
+					description="Analyse business and product concepts at Start-up Workshops or Ongoing Projects' Audits and prepare a viable and sensible product roadmap for achieving a perfect market fit."
 					link='#'
 				/>
 				<Card

@@ -20,7 +20,7 @@ const Home = () => {
 					<button className='border-2 border-gray-500 text-gray-500 rounded-sm p-2 hover:bg-gray-500 hover:text-white w-40'>
 						Learn more
 					</button>
-					<button className='bg-blue-500 text-white rounded-sm p-2 hover:bg-blue-700 w-40 flex justify-center items-center gap-2'>
+					<button className='bg-[#3871ff] text-white rounded-sm p-2 hover:bg-blue-700 w-40 flex justify-center items-center gap-2'>
 						Our proyects <ArrowRight className='w-5 h-5 ' />
 					</button>
 				</div>
