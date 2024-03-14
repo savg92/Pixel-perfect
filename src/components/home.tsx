@@ -3,7 +3,7 @@ import { ArrowRight } from 'lucide-react';
 
 const Home = () => {
 	return (
-		<div className='flex py-32'>
+		<div className='flex py-32' id='home'>
 			<div className='home text-white flex flex-col justify-start items-start p-5 w-3/6 gap-12 px-52'>
 				<div>
 					<h1 className='text-3xl font-bold text-start'>

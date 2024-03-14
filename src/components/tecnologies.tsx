@@ -24,7 +24,7 @@ const Tecnologies = () => {
 					auctor.
 				</p>
 			</div>
-			<div className='flex flex-wrap w-52 gap-12'>
+			<div className='flex flex-wrap w-72 gap-14 pr-12'>
 				<img
 					src={HTML}
 					alt='HTML5'
