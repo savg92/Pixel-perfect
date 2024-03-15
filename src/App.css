@@ -10,9 +10,40 @@
   /* font-family: 'Montserrat'; */
   /* font-family: 'Gotham'; */
   background-image: url('./assets/asset-background.jpg');
-  background-size: 40% 40%;
+  background-size: 100vw auto;
   background-position: right top;
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
   /* background-position: center; */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  #root {
+    background-size: 80vw auto;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #root {
+    background-size: 60vw auto;
+    background-position: right top;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #root {
+    background-size: 50vw auto;
+    background-position: right top;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #root {
+    background-size: 40vw auto;
+    background-position: right top;
+  }
 }
