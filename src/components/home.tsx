@@ -1,5 +1,4 @@
 import { ArrowRight } from 'lucide-react';
-// import bsckground from '../assets/asset-background.jpg';
 
 const Home = () => {
 	return (
@@ -25,12 +24,6 @@ const Home = () => {
 					</button>
 				</div>
 			</div>
-			{/* <div>
-				<img
-					src={bsckground}
-					alt='background'
-				/>
-			</div> */}
 		</div>
 	);
 };
