@@ -15,8 +15,9 @@ const CardAbout = ({
 	alt: string;
 	hidden: boolean;
 }) => {
+	console.log('hidden')
 	return (
-		<div className='flex flex-row w-3/6 gap-12 bg-[#3871ff] text-white'>
+		<div className='flex flex-row w-[80%] gap-12 bg-[#3871ff] text-white'>
 			<div className=' flex gap-4 flex-col py-6 pl-6'>
 				<h1 className='text-3xl font-bold text-start'>{title}</h1>
 				<p className=' w-64 text-justify'>{description}</p>

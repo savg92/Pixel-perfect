@@ -74,7 +74,7 @@ const FooterContent = [
 
 const Footer = () => {
 	return (
-		<div className='flex justify-center items-start p-6 md:p-12 text-white md:px-52 md:flex-row flex-col-reverse gap-6 md:gap-0'>
+		<div className='flex justify-center items-start p-6 md:p-12 text-white md:px-52 md:flex-row flex-col-reverse gap-10 md:gap-0'>
 			<div>
 				<div className='flex flex-col justify-start items-start space-y-5 gap-6 md:w-4/6'>
 					<div className='flex flex-col justify-start items-start gap-6'>
@@ -101,7 +101,7 @@ const Footer = () => {
 					</ul>
 				</div>
 			</div>
-			<div className='flex justify-between items-start md:w-4/6 w-full'>
+			<div className='flex justify-between items-start md:w-4/6 w-full gap-6'>
 				<div className='flex flex-col justify-start items-start w-1/6 h-48 gap-4'>
 					<h4 className='font-bold'>Sitemap</h4>
 					<ul className='flex flex-col justify-start items-start text-[#9297a1] gap-3'>
