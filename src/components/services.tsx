@@ -5,7 +5,7 @@ const Services = () => {
 	return (
 		<div
 			id='services'
-			className=' md:px-52'
+			className='px-[15%]'
 		>
 			<div>
 				<h1 className='text-3xl font-bold text-white p-5'>Our Services</h1>
@@ -14,7 +14,7 @@ const Services = () => {
 					designing and coding applications. Here is what we love to do!
 				</p>
 			</div>
-			<div className='flex justify-center md:justify-between items-center gap-8 flex-wrap md:flex-nowrap'>
+			<div className='flex justify-center lg:justify-between items-center gap-8 flex-wrap md:flex-nowrap'>
 				<Card
 					icon={<FileText />}
 					title='Business & Product Concept'

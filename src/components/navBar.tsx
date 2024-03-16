@@ -40,7 +40,7 @@ const NavBar = () => {
 
 	return (
 		<>
-			<div className='navbar flex justify-between items-center p-5 text-white md:px-52'>
+			<div className='navbar flex justify-between items-center p-5 text-white px-[15%]'>
 				<div>
 					<a href='/'>
 						<h1 className='text-3sm'>compleet labs</h1>
