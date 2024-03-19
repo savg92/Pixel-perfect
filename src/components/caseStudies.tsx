@@ -14,7 +14,7 @@ const SVGs = [
 	{
 		src: Google,
 		alt: 'Google',
-		className: 'h-16 pt-6',
+		className: 'h-16 pt-6 pt-0',
 	},
 	{
 		src: Nike,
