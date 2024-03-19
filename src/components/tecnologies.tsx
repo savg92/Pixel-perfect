@@ -35,14 +35,14 @@ const SVGs = [
 const Tecnologies = () => {
 	return (
 		<div
-			className='bg-[#3871ff] text-white flex md:flex-row justify-center md:justify-between items-center p-5 -mt-24 pt-44 pb-32 px-[15%] flex-col gap-10 md:gap-0'
+			className='bg-[#3871ff] text-white flex lg:flex-row justify-center md:justify-between items-center p-5 -mt-24 pt-44 pb-32 px-[15%] flex-col gap-10 md:gap-6 lg:gap-0'
 			id='technology'
 		>
-			<div className=' w-3/5'>
+			<div className=' w-[80%]'>
 				<h1 className='text-3xl font-bold text-start'>
 					We use cutting edge technology
 				</h1>
-				<p className='text-[#9bb8ff] text-start mt-5 w-[28rem]'>
+				<p className='text-[#9bb8ff] text-start mt-5 w-[70%]'>
 					Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean lacinia
 					bibendum nulla sed consectetur. Cum sociis natoque penatibus et magnis
 					dis parturient montes, nascetur ridiculus mus. Nulla vitae elit
@@ -51,7 +51,7 @@ const Tecnologies = () => {
 					auctor.
 				</p>
 			</div>
-			<div className='flex flex-wrap w-72 gap-10 pr-12'>
+			<div className='flex flex-wrap w-72 gap-10 px-6 md:pr-12 justify-center'>
 				{
 					SVGs.map((svg, index) => {
 						return (

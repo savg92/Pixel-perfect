@@ -18,7 +18,7 @@ const CardAbout = ({
 	console.log('hidden');
 	return (
 		<div className='flex flex-col md:flex-row md:w-[90%] bg-[#3871ff] text-white md:h-60'>
-			<div className=' flex gap-4 flex-col py-6 pl-6'>
+			<div className=' flex gap-4 flex-col py-6 pl-6 pr-6 md:pr-0'>
 				<h1 className='text-3xl font-bold text-start'>{title}</h1>
 				{/* <p className=' w-[90%] text-justify'>{description}</p> */}
 				<p
