@@ -15,7 +15,7 @@ const Card = ({
 		<div className='card flex flex-col justify-center items-center p-7 bg-white shadow-md gap-4  w-96'>
 			<div className='bg-[#3871ff] text-white rounded-full p-3 m-1'>{icon}</div>
 			<h3 className='  font-bold'>{title}</h3>
-			<p className='text-gray-400 text-pretty text-pretty'>{description}</p>
+			<p className='text-gray-400 text-pretty'>{description}</p>
 			<button className='border-2 border-gray-400 text-gray-400 rounded-sm p-2 hover:bg-gray-500 hover:text-white mt-5 w-40'>
 				<a href={link}>Learn more</a>
 			</button>

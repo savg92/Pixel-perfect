@@ -4,7 +4,7 @@ import phone from '../assets/phone_watch.png';
 const About = () => {
 	return (
 		<div
-			className='flex flex-col lg:flex-row gap-12 justify-between items-center p-5 px-[15%]'
+			className='flex flex-col lg:flex-row gap-12 justify-between items-start p-5 px-[15%] h-max'
 			id='about'
 		>
 			<CardAbout
@@ -14,7 +14,7 @@ const About = () => {
 				linkText='Hire us'
 				image=''
 				alt=''
-				hidden={true}
+				hidden={false}
 			/>
 			<CardAbout
 				title='Our Projects'
