@@ -15,3 +15,13 @@ This project is a pixel perfect project, where the goal is to make the website l
 3. Run `npm start` to start the development server
 4. Open your browser and go to `http://localhost:5173/`
 
+## Live demo
+[https://pixel-perfect-project.netlify.app/]
+
+## Original design
+![Original design](./src/assets/landing-alternative_2x.png)
+
+## Author
+👤 **Santiago Valenzuela**
+
+- GitHub: [@savg92](www.github.com/savg92)
