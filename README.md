@@ -7,7 +7,11 @@ This project is a pixel perfect project, where the goal is to make the website l
 - CSS
 - JavaScript
 - React [https://reactjs.org/]
+- TypeScript [https://www.typescriptlang.org/]
 - Tailwind CSS [https://tailwindcss.com/]
+- Shadcn [https://shadcn.com/]
+- Vite [https://vitejs.dev/]
+
 
 ## How to run the project
 1. Clone the repository
