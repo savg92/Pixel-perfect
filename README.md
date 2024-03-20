@@ -1,28 +1,17 @@
-# React + TypeScript + Vite
+## Pixel perfect project
 
-This template should help get you started developing with React, TypeScript and Vite in no time.
+This project is a pixel perfect project, where the goal is to make the website look exactly like the original design. The original design is a figma file, and the website is built using HTML and CSS.
 
-## Get started
+## Technologies used
+- HTML
+- CSS
+- JavaScript
+- React [https://reactjs.org/]
+- Tailwind CSS [https://tailwindcss.com/]
 
-Install dependencies:
-
-```bash
-npm install
-```
-
-Start the development server:
-
-```bash
-npm run dev
-```
-
-Visit `http://localhost:5173` and you should see your app running. Try editing the `src/App.tsx` file. The page should reload with your edits.
-
-## Building and running in production mode
-
-To build the application for production, use the build command. A production build will be placed in `dist` folder.
-
-```bash
-npm run build
-```
+## How to run the project
+1. Clone the repository
+2. Run `npm install` to install the dependencies
+3. Run `npm start` to start the development server
+4. Open your browser and go to `http://localhost:5173/`
 
